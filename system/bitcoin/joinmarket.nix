@@ -1,4 +1,4 @@
-{...}: {
+{
   services.joinmarket = {
     enable = true;
   };
