@@ -12,8 +12,7 @@
     ./system/bitcoin/bitcoind.nix
   ];
 
-  # Define a user account. Don't forget to set a password with ‘passwd’.
-  # FIXME
+  # FIXME: Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.satoshi = {
     isNormalUser = true;
     description = "satoshi";
