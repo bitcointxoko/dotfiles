@@ -17,7 +17,7 @@
   users.users.satoshi = {
     isNormalUser = true;
     description = "satoshi";
-    extraGroups = ["networkmanager" "wheel"];
+    extraGroups = ["wheel"];
     packages = with pkgs; [
       #  thunderbird
     ];
