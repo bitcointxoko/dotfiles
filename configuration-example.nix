@@ -14,7 +14,9 @@
     # ./system/bitcoin/mempool.nix
     # ./system/bitcoin/joinmarket.nix
     # ./system/bitcoin/joinmarket-ob-watcher.nix
+    # ./system/bitcoin/btcpayserver.nix
     # ./system/bitcoin/clightning.nix
+    # ./system/bitcoin/lnd.nix
     # ./system/bitcoin/rtl.nix
   ];
 
