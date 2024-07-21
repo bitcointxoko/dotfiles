@@ -10,6 +10,11 @@
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
     ./system/bitcoin/bitcoind.nix
+    # ./system/bitcoin/fulcrum.nix
+    # ./system/bitcoin/mempool.nix
+    # ./system/bitcoin/clightning.nix
+    # ./system/bitcoin/joinmarket.nix
+    # ./system/bitcoin/joinmarket-ob-watcher.nix
   ];
 
   # FIXME: Define a user account. Don't forget to set a password with ‘passwd’.
