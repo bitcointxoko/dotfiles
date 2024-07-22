@@ -6,7 +6,7 @@
 
 ## Cómo utilizar este repositorio
 
-Puedes empezar a ejecutar un nodo bitcoin con sólo unos pocos comandos usando el código de este repositorio. Para la configuración más rápida, consulta [Instalación rápida](#quick-install).
+Puedes empezar a ejecutar un nodo bitcoin con sólo unos pocos comandos usando el código de este repositorio. Para la configuración más rápida, consulta [Instalación rápida](#instalación-rápida).
 
 Si eres nuevo en Nix o NixOS y quieres un poco más de información sobre lo que ocurre en segundo plano, puedes echar un vistazo a la [Guía Detallada](https://github.com/bitcointxoko/guides/blob/main/es/nix-bitcoin-01.md) donde cubrimos los pasos desde la instalación de NixOS en una VM hasta la configuración de tu primer servicio nix-bitcoin (bitcoind).
 
