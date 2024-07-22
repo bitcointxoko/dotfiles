@@ -15,7 +15,8 @@
     lib = nixpkgs.lib;
   in {
     nixosConfigurations = {
-      nixos = lib.nixosSystem {
+      # FIXME: change "host" to the hostname of your system defined in configuration.nix
+      host = lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
           ./configuration.nix
