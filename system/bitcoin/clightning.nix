@@ -1,5 +1,5 @@
+### CLIGHTNING
 {
-  ### CLIGHTNING
   # Enable clightning, a Lightning Network implementation in C.
   services = {
     clightning = {
