@@ -1,8 +1,12 @@
-  ### Backups
+### Backups
+{ 
   # Set this to enable nix-bitcoin's own backup service. By default, it
   # uses duplicity to incrementally back up all important files in /var/lib to
   # /var/lib/localBackups once a day.
-  { services.backups.enable = true; }
+  services.backups.enable = true; 
+  # If you also want to backup bulk data like the Bitcoin & Liquid blockchains
+  # and electrs data directory, enable
+  # services.backups.with-bulk-data = true;
   #
   # You can pull the localBackups folder with
   # `scp -r bitcoin-node:/var/lib/localBackups /my-backup-path/`
@@ -16,6 +20,5 @@
   #   hostNames = [ "host" ];
   #   publicKey = "<ssh public from `ssh-keyscan`>";
   # };
-  # If you also want to backup bulk data like the Bitcoin & Liquid blockchains
-  # and electrs data directory, enable
-  # services.backups.with-bulk-data = true;
+}
+
