@@ -55,7 +55,7 @@
           # The downsides are increased evaluation times and increased system
           # closure size.
           #
-          # nix-bitcoin.useVersionLockedPkgs = true;
+          nix-bitcoin.useVersionLockedPkgs = true;
         ];
       };
     };
