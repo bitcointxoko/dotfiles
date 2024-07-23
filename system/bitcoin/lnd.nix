@@ -1,5 +1,5 @@
+### LND
 {
-  ### LND
   # Set this to enable lnd, a lightning implementation written in Go.
   # services.lnd.enable = true;
   #
