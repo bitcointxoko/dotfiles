@@ -10,13 +10,21 @@
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
     ./system/bitcoin/bitcoind.nix
+    # ./system/bitcoin/electrs.nix
     # ./system/bitcoin/fulcrum.nix
     # ./system/bitcoin/mempool.nix
     # ./system/bitcoin/joinmarket.nix
     # ./system/bitcoin/btcpayserver.nix
     # ./system/bitcoin/clightning.nix
     # ./system/bitcoin/lnd.nix
+    # ./system/bitcoin/lightning-loop.nix
+    # ./system/bitcoin/lightning-pool.nix
+    # ./system/bitcoin/charge-lnd.nix
     # ./system/bitcoin/rtl.nix
+    # ./system/bitcoin/hardware-wallets.nix
+    # ./system/helpers/backups.nix
+    # ./system/helpers/nodeinfo.nix
+    # ./system/helpers/netns-isolation.nix
   ];
 
   # FIXME: Define a user account. Don't forget to set a password with ‘passwd’.
