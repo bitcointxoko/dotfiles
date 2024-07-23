@@ -5,13 +5,13 @@
   #
   services.lnd = {
     enable = true;
+    # NOTE: In order to avoid collisions with clightning you must disable clightning or
+    # change the services.clightning.port or services.lnd.port to a port other than
+    # 9735.
+    #
     port = 9736;
   };
 
-  # NOTE: In order to avoid collisions with clightning you must disable clightning or
-  # change the services.clightning.port or services.lnd.port to a port other than
-  # 9735.
-  #
   # Set this to create an onion service by which lnd can accept incoming connections
   # via Tor.
   # The onion service is automatically announced to peers.
@@ -40,5 +40,5 @@
   # This will allow you to recover off-chain funds, by force-closing channels.
   #   scp bitcoin-node:/var/lib/lnd/chain/bitcoin/mainnet/channel.backup ./backups/lnd/
   #
-  # Alternatively, you can have these files backed up by services.backups below.
+  # Alternatively, you can have these files backed up by services.backups.
 }
