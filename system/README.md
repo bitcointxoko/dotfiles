@@ -1,0 +1,22 @@
+List of NixOS modules
+
+- Application services
+  - bitcoind
+  - electrs
+  - fulcrum
+  - joinmarket
+    - joinmarket-ob-watcher
+  - btcpayserver
+  - clightning
+    - clightning-rest
+  - lnd
+    - lightning-loop
+    - lightning-pool
+    - charge-lnd
+  - rtl
+  - liquidd
+  - hardware-wallets
+- Helpers
+  - backups
+  - nodeinfo
+  - netns-isolation
