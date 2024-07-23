@@ -21,6 +21,7 @@
     # ./system/bitcoin/lightning-pool.nix
     # ./system/bitcoin/charge-lnd.nix
     # ./system/bitcoin/rtl.nix
+    # ./system/bitcoin/liquidd.nix
     # ./system/bitcoin/hardware-wallets.nix
     # ./system/helpers/backups.nix
     # ./system/helpers/nodeinfo.nix
