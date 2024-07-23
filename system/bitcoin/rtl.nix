@@ -1,5 +1,5 @@
+### RIDE THE LIGHTNING
 {
-  ### RIDE THE LIGHTNING
   services.rtl = {
     # Set this to enable RTL, a web interface for lnd and clightning.
     enable = true;
