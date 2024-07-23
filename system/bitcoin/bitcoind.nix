@@ -1,5 +1,5 @@
+### BITCOIND
 {config, ...}: {
-  ### BITCOIND
   # Bitcoind is enabled by default via secure-node.nix.
   services.bitcoind = {
     enable = true;
