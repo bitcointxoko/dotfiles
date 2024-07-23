@@ -1,5 +1,5 @@
+### MEMPOOL
 {...}: {
-  ### MEMPOOL
   services.mempool = {
     # Set this to enable mempool, a fully featured Bitcoin visualizer, explorer,
     # and API service.
