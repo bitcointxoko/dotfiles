@@ -54,6 +54,12 @@
     ];
   };
 
+  ### Nodeinfo
+  # Set this to add command `nodeinfo` to the system environment.
+  # It shows info about running services like onion addresses and local addresses.
+  # It is enabled by default when importing `secure-node.nix`.
+  # nix-bitcoin.nodeinfo.enable = true;
+
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
   # on your system were taken. It‘s perfectly fine and recommended to leave
