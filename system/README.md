@@ -4,6 +4,7 @@ List of NixOS modules
   - bitcoind
   - electrs
   - fulcrum
+  - mempool
   - joinmarket
     - joinmarket-ob-watcher
   - btcpayserver
