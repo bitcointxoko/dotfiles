@@ -2,6 +2,10 @@
 {config, ...}: {
   # Bitcoind is enabled by default via secure-node.nix.
   services.bitcoind = {
+    # Joinmarket is not compatible with bitcoind >= 30.
+    # (https://github.com/JoinMarket-Org/joinmarket-clientserver/pull/1775)
+    # To fix this, enable the following config:
+    # package = config.nix-bitcoin.pkgs.bitcoind_29;
     enable = true;
     # Set this option to enable pruning with a specified MiB value.
     # clightning is compatible with pruning. See
